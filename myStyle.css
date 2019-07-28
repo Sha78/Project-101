@@ -9,5 +9,30 @@ body{
     background-color:#808080;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.7em;
+    padding:20px;
     top:0;
+}
+.header h1{
+    margin:10px;
+    text-align:center;
+    padding-left:33%;
+    position:absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    position:relative;
+    box-shadow: 2px 3px 5px black;
+}
+.container{
+    background-color:#ffff;
+    height:100vh;
+    box-sizing: border-box;
+    padding:55px;
+}
+.content{
+    background-color:rgb(243, 237, 237);
+    box-sizing: border-box;
+    height:90vh;
+    padding:55px;
+    box-shadow: 2px 4px 6px black;
 }
